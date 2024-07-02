@@ -12,7 +12,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000',  // Add your frontend URL here
+  origin: 'http://localhost:3000', 
   methods: 'GET,POST,PUT,DELETE',
   credentials: true,
 }));
